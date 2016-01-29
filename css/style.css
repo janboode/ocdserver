@@ -1,0 +1,657 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ars_maquettetrmedium';
+    src: url('../fonts/arsmaqmedtr-webfont.eot');
+    src: url('../fonts/arsmaqmedtr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arsmaqmedtr-webfont.woff') format('woff'),
+         url('../fonts/arsmaqmedtr-webfont.ttf') format('truetype'),
+         url('../fonts/arsmaqmedtr-webfont.svg#ars_maquettetrmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ars_maquettetrregular';
+    src: url('../fonts/arsmaqregtr-webfont.eot');
+    src: url('../fonts/arsmaqregtr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arsmaqregtr-webfont.woff') format('woff'),
+         url('../fonts/arsmaqregtr-webfont.ttf') format('truetype'),
+         url('../fonts/arsmaqregtr-webfont.svg#ars_maquettetrregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ars_maquettetrbold';
+    src: url('../fonts/arsmaqboltr-webfont.eot');
+    src: url('../fonts/arsmaqboltr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arsmaqboltr-webfont.woff') format('woff'),
+         url('../fonts/arsmaqboltr-webfont.ttf') format('truetype'),
+         url('../fonts/arsmaqboltr-webfont.svg#ars_maquettetrbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ars_maquettetrlight';
+    src: url('../fonts/arsmaqligtr-webfont.eot');
+    src: url('../fonts/arsmaqligtr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arsmaqligtr-webfont.woff') format('woff'),
+         url('../fonts/arsmaqligtr-webfont.ttf') format('truetype'),
+         url('../fonts/arsmaqligtr-webfont.svg#ars_maquettetrlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* { margin: 0; padding: 0; }
+
+:focus, :active {
+	outline: 0;
+	border: 0;
+}
+
+html body { 
+	
+}
+
+#home { 
+	background: url(../images/header.jpg) 50% 0 no-repeat fixed; 
+	height: 465px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+
+article, aside, figure, footer, header, nav, section { display: block; }
+
+li {
+	display: inline;
+	list-style: none;	
+}
+
+.tester {
+	position: fixed;
+	z-index:9999999;
+	color: #F60;
+}
+
+h1 {
+	font-family: 'ars_maquettetrbold', Tahoma, Geneva, sans-serif;
+	font-size: 32px;
+	color: #555;
+	letter-spacing: 1.5px;
+	font-weight: none;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.edit_h1_one {
+	color: #ff5555;
+}
+
+h2 {
+	font-family: 'Convergence', sans-serif;
+	font-size: 26px;
+	color: #555;
+	letter-spacing: 1.5px;
+	font-weight: none;
+}
+
+/* Section Inner */
+div.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+.section-inner-images {
+}
+
+.white {
+	background-color: #fff;
+	height: 10px;	
+}
+
+/* HEADER /////////////////////////////////// */
+
+#hdrbg {
+	width: 100%;
+}
+
+#headerContent {
+	width: 100%;	
+	height: 465px;
+	margin: 0 auto;
+	background: url(../images/header.jpg) no-repeat top center fixed; 
+}
+
+/* Navigation Settings */
+nav {
+	
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background: #fff;
+    font-family: 'ars_maquettetrmedium';
+	font-size: 16px;
+	color: #7c7c7c;
+	text-transform:uppercase;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 0px;
+}
+
+nav li a {
+    text-decoration: none;
+	color: #7c7c7c;
+  	-webkit-transition: color .25s;
+  	-moz-transition: color .25s;
+  	-ms-transition: color .25s;
+  	-o-transition: color .25s;
+  	transition: color .25s;
+}
+
+nav li + li:before{
+	content: " | ";
+	padding: 10px;
+}
+
+
+nav li a:hover {
+	color: #ff5555;
+}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed; 
+	top: 0;
+	z-index: 10000000;
+}
+
+
+
+/* LOGO /////////////////////////////////// */
+
+#logo img{
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+
+
+/* */
+/* Body Content */
+div.body-content-got {
+	padding: 120px 0;
+	background-color: #e7e7e7;
+}
+
+div.body-content-ranks {
+	padding: 50px 0;
+	background-color: #506c8c;
+}
+
+div.body-content-commands {
+	padding: 50px 0;
+	background-color: #fff;
+}
+
+div.body-content-images {
+	padding: 50px 0;
+	background-color: #e7e7e7;
+}
+
+div.body-content-donate {
+	padding: 50px 0;
+	background-color: #ff5555;
+}
+
+div.body-content-contact {
+	padding: 50px 0;
+	background-color: #00aa00;
+}
+
+footer {
+	padding: 50px 0;
+	background-color: #555;
+	text-align:right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+
+/* Thirds */
+div.thirds {
+	padding-bottom: 50px;
+}
+
+div.one-third {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+div.one-third-last {
+	margin: 0;
+}
+
+div.one-third-third {
+	margin: 0;
+}
+
+div.one-third-fourth {
+	
+}
+div.one-third-fifth {
+}
+
+
+/* Tow-Columns */
+div.two-columns {
+	padding-bottom: 50px;
+}
+
+div.one-two-columns {
+	width: 47.5%;
+	float: left;
+	margin-right: 5%;
+}
+
+div.one-two-columns-second {
+	margin-right: 0%;
+}
+
+
+/* GO /////////////////////////////////// */
+
+#go_holder {
+	width: 100%;
+	background-color: #e7e7e7;
+}
+
+#goContent {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #e7e7e7;
+}
+
+.body-content-got p {
+	font-family: 'Convergence', sans-serif;
+	font-size: 20px;
+	color: #555;
+	line-height: 26px;
+	letter-spacing: .6px;
+}
+
+#go_left {
+	float: left;
+	width: 580px;
+	margin: 10px;
+}
+
+#go_right {
+	float: left;
+	width: 580px;
+	margin: 10px;
+}
+
+#go_copy {
+	padding-top: 64px;
+}
+
+#go_copy p {
+	font-family: 'Convergence', sans-serif;
+	font-size: 20px;
+	color: #555;
+	line-height: 26px;
+	letter-spacing: .6px;	
+}
+
+#go_bar {
+	padding-top: 50px;
+}
+
+#go_bar input {
+	background: #fff;
+	padding-left: 14px;
+	width: 90%;
+	height: 50px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	
+	font-family: 'Convergence', sans-serif;
+	font-size: 22px;
+	color: #555;
+	line-height: 26px;
+	letter-spacing: .6px;
+	
+	 box-shadow: inset rgba(0, 0, 0, 0.2) 2px 2px 5px;   
+    -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 2px 2px 5px;    
+    -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 2px 2px 5px;  	
+}
+
+/* SKILLTREES /////////////////////////////////// */
+
+#skilltrees_holder {
+	width: 100%;
+	background: #506c8c;	
+}
+
+#skillContent {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#skills_left {
+	float: left;
+	width: 580px;
+	margin: 10px;
+}
+
+#skills_right {
+	float: left;
+	width: 580px;
+	margin: 10px;
+}
+
+.treeitem {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	width: 560px;
+}
+
+.body-content-ranks img {
+	float: left;
+	margin-left: -2px;
+}
+
+.body-content-ranks h2 {
+	float: left;
+	font-family: 'Convergence', sans-serif;
+	font-size: 26px;
+	color: #c2c2c2;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.body-content-ranks p {
+	font-family: 'Convergence', sans-serif;
+	font-size: 15px;
+	color: #efefef;
+	line-height: 21px;
+	letter-spacing: .5px;
+	margin-top: 20px;
+	margin-bottom: 40px;		
+}
+
+.body-content-donate h2 {
+	font-family: 'Convergence', sans-serif;
+	font-size: 26px;
+	color: #c4c4c4;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.h2_white {
+	color: #fff;	
+}
+
+.body-content-donate p {
+	font-family: 'Convergence', sans-serif;
+	font-size: 15px;
+	color: #555;
+	line-height: 21px;
+	letter-spacing: .5px;		
+}
+
+#donateHolder {
+	font-family: 'Convergence', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	line-height: 21px;
+	letter-spacing: .5px;
+	margin-top: 60px;
+}
+
+#dontxt{
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+	height: 86px;
+}
+
+#donbut{
+	background: url(../images/bc.png) no-repeat;
+	width: 154px;
+	height: 86px;
+	float: left;
+}
+
+
+/* COMMANDS /////////////////////////////////// */
+
+
+.comm_item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.comm_text {
+	text-indent: 8px;
+	padding-top: 7px;
+}
+
+.comm_item-odd {
+	background:#f2f2f2;
+}
+.comm_item-even {
+	background:#fbfbfb;
+}
+
+.comm_col_2-odd {
+	background:#ffff55;
+}
+.comm_col_2-even {
+	background:#ffff9b;
+}
+
+.comm_item-newbie {
+	background:#aaa;
+}
+
+.comm_item-member {
+	background:#ff5555;
+}
+
+.comm_item-veteran {
+	background:#aa00aa;
+}
+
+.comm_item-donator {
+	background:#00aaaa;
+}
+
+#comm_col_1 {
+	float: left;
+	width: 42%;
+	height: 24px;
+}
+#comm_col_2 {
+	float: left;
+	width: 50%;
+	height: 24px;
+}
+#comm_col_3 {
+	float: left;
+	width: 8%;
+	height: 24px;
+	color: #fff;
+	text-align: center;
+	text-indent: 0px;
+}
+
+
+.thumb {
+	width: 50%;
+	float: left;
+}
+
+.thumbInner {
+	padding: 2%;
+    overflow: hidden;
+}
+
+.img_coll_one {
+	
+}
+
+.thumb img {
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+#slider1 {
+	z-index: 2;
+}
+
+
+
+
+
+.stuffwrapper {
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+}
+
+.pork {
+	position: fixed;
+	right: 10%;
+	top: 350px;
+	background: url(../images/pork.png) no-repeat;
+	width: 250px;
+	height: 250px;
+}
+
+.pickaxe {
+	position: fixed;
+	left: 10%;
+	top: 2500px;
+	background: url(../images/steelpick.png) no-repeat;
+	width: 400px;
+	height: 400px;
+}
+
+.squid {
+	position: fixed;
+	right: 25%;
+	top: 4500px;
+	background: url(../images/squid.png) no-repeat;
+	width: 170px;
+	height: 265px;
+}
+
+.goldsword {
+	position: fixed;
+	right: 25%;
+	top: 6500px;
+	background: url(../images/goldsword.png) no-repeat;
+	width: 300px;
+	height: 300px;
+}
+
+.dia_sword {
+	position: fixed;
+	right: 25%;
+	top: 6500px;
+	background: url(../images/dia_sword.png) no-repeat;
+	width: 500px;
+	height: 500px;
+}
+
+.dia {
+	position: fixed;
+	left: 10%;
+	top: 5500px;
+	background: url(../images/dia_top.png) no-repeat;
+	width: 300px;
+	height: 300px;
+}
+
+.egg {
+	position: fixed;
+	left: 10%;
+	top: 5500px;
+	background: url(../images/egg.png) no-repeat;
+	width: 300px;
+	height: 300px;
+}
+
+.flower_red {
+	position: fixed;
+	right: 12%;
+	top: 4000px;
+	background: url(../images/flower_red.png) no-repeat;
+	width: 274px;
+	height: 500px;
+}
+
+.flower_yel {
+	position: fixed;
+	right: 12%;
+	top: 15000px;
+	background: url(../images/flower_yel.png) no-repeat;
+	width: 374px;
+	height: 500px;
+}
+
+.wood_axe {
+	position: fixed;
+	left: 8%;
+	top: 15000px;
+	background: url(../images/wood_axe.png) no-repeat;
+	width: 500px;
+	height: 500px;
+}
+
+
+.js-video{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+/* CLEARFLOAT /////////////////////////////////// */
+
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
